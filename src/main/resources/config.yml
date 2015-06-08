@@ -1,0 +1,3 @@
+someSetting: ${settings/someSetting}
+someSettingThatDoesNotExist: ${settings/someSettingThatDoesNotExist:-default_value_for_some_setting}
+someOtherSetting: "from config.yml"

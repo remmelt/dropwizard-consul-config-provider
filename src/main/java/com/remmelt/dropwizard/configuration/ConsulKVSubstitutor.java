@@ -1,4 +1,4 @@
-package com.remmelt.consul_config_provider.configuration;
+package com.remmelt.dropwizard.configuration;
 
 import org.apache.commons.lang3.text.StrSubstitutor;
 

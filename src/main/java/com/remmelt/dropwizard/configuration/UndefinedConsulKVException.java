@@ -1,4 +1,4 @@
-package com.remmelt.consul_config_provider.configuration;
+package com.remmelt.dropwizard.configuration;
 
 public class UndefinedConsulKVException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

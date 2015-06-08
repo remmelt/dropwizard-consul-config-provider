@@ -1,7 +1,7 @@
 package com.remmelt.consul_config_provider;
 
-import com.remmelt.consul_config_provider.configuration.ConsulKVSubstitutor;
 import com.remmelt.consul_config_provider.resources.ExampleResource;
+import com.remmelt.dropwizard.configuration.ConsulKVSubstitutor;
 import io.dropwizard.Application;
 import io.dropwizard.configuration.SubstitutingSourceProvider;
 import io.dropwizard.setup.Bootstrap;

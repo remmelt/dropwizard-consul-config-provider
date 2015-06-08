@@ -1,4 +1,4 @@
-package com.remmelt.consul_config_provider.configuration;
+package com.remmelt.dropwizard.configuration;
 
 import com.ecwid.consul.v1.ConsulClient;
 import io.dropwizard.configuration.UndefinedEnvironmentVariableException;

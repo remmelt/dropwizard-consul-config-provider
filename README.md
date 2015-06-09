@@ -17,6 +17,8 @@ Visit the Consul ui: [192.168.59.103:8500/ui/#/dc1/kv/](http://192.168.59.103:85
 
 Now clone this repository and run the app:
 ```
+git clone https://github.com/remmelt/dropwizard-consul-config-provider
+cd dropwizard-consul-config-provider
 mvn clean package
 CONSUL_HOST="192.168.59.103" java -jar target/consul-config-provider.jar server src/main/resources/config.yml
 ```

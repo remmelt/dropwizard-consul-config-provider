@@ -18,7 +18,10 @@ public class ConsulConfigExampleApplication extends Application<ConsulConfigExam
 	@Override
 	public void initialize(Bootstrap<ConsulConfigExampleConfiguration> bootstrap) {
 		bootstrap.setConfigurationSourceProvider(
-				new SubstitutingSourceProvider(bootstrap.getConfigurationSourceProvider(), new ConsulKVSubstitutor(false))
+				new SubstitutingSourceProvider(
+						bootstrap.getConfigurationSourceProvider(),
+						new ConsulKVSubstitutor(false)
+				)
 		);
 	}
 
